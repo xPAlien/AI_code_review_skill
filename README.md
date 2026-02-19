@@ -9,7 +9,7 @@ AI-generated code optimizes for the happy path. It compiles. Tests pass. But it 
 When you ask Claude to review code (or it detects AI-generated code), this skill triggers a 4-step process:
 
 1. **Comprehension Gate** — Can you explain what the code does and why it fails?
-2. **35-Item Checklist** — Evaluates security, performance, error handling, observability, architecture fit, and code quality
+2. **45-Item Checklist** — Evaluates security, performance, error handling, observability, architecture fit, and code quality
 3. **Review Report** — Structured output with PASS/FAIL per item and concrete fix recommendations
 4. **Severity Classification** — CRITICAL, HIGH, MEDIUM, LOW with merge/block guidance
 
@@ -63,7 +63,7 @@ cp -r ai-code-review ~/.claude/skills/
 cp -r ai-code-review .claude/skills/
 ```
 
-Claude Code will auto-discover the skill. No restart needed.
+Claude Code will auto-discover the skill at the start of your next session. Once loaded, edits to skill files are picked up live without restarting.
 
 ### Any Agent Skills Compatible Tool
 

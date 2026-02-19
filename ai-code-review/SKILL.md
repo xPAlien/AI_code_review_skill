@@ -105,5 +105,5 @@ that causes a 3-hour outage cost more than writing it properly in 60 minutes.
 
 ## Reference Files
 
-- `references/checklist.md` - Full checklist with all 30+ review items
+- `references/checklist.md` - Full checklist with all 45 review items
 - `references/common-failures.md` - Patterns AI gets wrong most often, with examples

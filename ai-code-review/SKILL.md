@@ -2,7 +2,7 @@
 name: ai-code-review
 description: >
   Systematic code review checklist for AI-generated code. Use this skill whenever
-  reviewing code produced by AI assistants (ChatGPT, Copilot, Claude, Cursor, etc.),
+  reviewing code produced by AI assistants (ChatGPT, Copilot, Claude, Cursor, Codex, Gemini, etc.),
   or when the user asks to review, audit, or harden any code they did not write from
   scratch themselves. Also trigger when the user says "review this," "is this safe,"
   "check my code," "audit this," "harden this," or pastes code they want evaluated

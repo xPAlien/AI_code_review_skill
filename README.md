@@ -1,6 +1,6 @@
 # AI Code Review Skill
 
-A systematic code review checklist for AI-generated code. Works with Claude.ai, Claude Code, and any tool supporting the [Agent Skills](https://agentskills.io) open standard.
+A systematic code review checklist for AI-generated code. Works with Claude.ai, Claude Code, Codex, Gemini, and any tool supporting the [Agent Skills](https://agentskills.io) open standard.
 
 AI-generated code optimizes for the happy path. It compiles. Tests pass. But it routinely skips debouncing, input validation, error handling, connection management, logging, and security hardening. This skill enforces a structured review that catches those gaps before code reaches production.
 
@@ -104,6 +104,14 @@ I used Copilot to write this database query. Is it safe to ship?
 
 ```
 Audit this React component before I merge it.
+```
+
+```
+Gemini wrote this auth middleware. Check it before I deploy.
+```
+
+```
+Codex generated this data pipeline. Is it production-ready?
 ```
 
 ## Contributing

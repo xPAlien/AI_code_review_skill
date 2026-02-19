@@ -63,7 +63,7 @@ cp -r ai-code-review ~/.claude/skills/
 cp -r ai-code-review .claude/skills/
 ```
 
-Claude Code will auto-discover the skill. No restart needed.
+Claude Code will auto-discover the skill at the start of your next session. Once loaded, edits to skill files are picked up live without restarting.
 
 ### Any Agent Skills Compatible Tool
 
